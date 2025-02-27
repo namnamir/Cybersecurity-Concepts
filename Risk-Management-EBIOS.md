@@ -120,7 +120,6 @@ Construct the operational scenarios by using as a base the strategic scenarios s
 For each operational scenario, you will assess its overall **likelihood**, which reflects its probability of success or its feasibility according to the judgement of an expert or using metrics.
 
 ![EBIOS Risk Management - Example of Workshops 4: Assess the Likelihood of Operational Scenarios](img/ebios-risk-management-workshop-example-4-2.png)
-
 ## Workshop 5: Risk Treatment
 The last workshop consists in creating a summary of all of the risks studied in order to define a risk treatment strategy. The latter is then broken down into security measures written into a continuous improvement plan.
 | Objectives | Participants | Outputs |
@@ -154,6 +153,7 @@ Once these indicators are listed, define or refine the continuous improvement pr
 
 ## Links Between EBIOS Workshops
 ![EBIOS Risk Management - Link between the various workshops](img/ebios-risk-management-workshop-links.png)
+
 Each attack path of a strategic scenario gives rise to an operational scenario. A risk scenario corresponds to the association of an attack path and its operational scenario.
 ### The Cycles
 The approach calls for two cycles:
