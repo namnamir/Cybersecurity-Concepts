@@ -10,9 +10,9 @@ The EBIOS RM method uses an iterative approach (symbolised by the "digital risk 
 - Workshop 3: Strategic Scenarios (Impacts)
 - Workshop 4: Operational Scenarios (Likelihood)
 - Workshop 5: Risk Treatment
+
 ![EBIOS Risk Management Pyramid](img/ebios-risk-management-pyramid.png)
 ![EBIOS Risk Management Iterative Workshops](img/ebios-risk-management-workshop.png)
-
 ## Workshop 1: Scope and security baseline
 The first workshop aims to identify the studied object, the participants in the workshops and the timeframe. During this workshop, you will list the missions, business assets5 and supporting assets related to the studied object.
 | Objectives | Participants | Outputs |
@@ -27,6 +27,7 @@ The first workshop aims to identify the studied object, the participants in the 
 - Start by listing all of the **missions** of the studied object, i.e. the end purposes and major goals.
 - List all of the **business assets** associated with the studied object, namely the information or processes deemed important, in the framework of the study, and that should be protected.
 - Then, list the **supporting assets** regarding each business asset. These are elements of the information system on which the business assets are based. For this, use the mapping of the organisation's information system.
+
 ![EBIOS Risk Management - Example of Workshops 1: Define the Business and Technical Perimeter](img/ebios-risk-management-workshop-example-1-0.png)
 #### 3. Identify Feared Events
 Identifying and characterising the **feared events (FE)** enable the stakeholders to objectively compare the importance of the missions and the business assets while becoming aware of the security issues. In EBIOS Risk Manager, feared events are associated with business assets and reveal a harmful breach for the organisation. The degree of harm or impact is assessed according to a severity scale that makes it possible to rank feared events.
@@ -37,9 +38,11 @@ In order to reveal the FEs, you can, for each business asset listed in the prece
 - affecting the **confidentiality** of the business asset
 - affecting the **traceability** of of an action (might caused the incident)
 - and more globally the **quality of service** and the **performance** that the business asset must satisfy.
+
 ![EBIOS Risk Management - Example of Workshops 1: Identify Feared Events](img/ebios-risk-management-workshop-example-1-1.png)
 #### 4. Determine the Security Baseline
 Determining the security baseline and the gaps assumes adopting a compliance approach, corresponding to the first two stages of the risk management pyramid. For this, you must identify all of the **security reference standards**, i.e., ISO 27k family, NIST SP 800, that apply to the studied object and clearly identify the **gaps**, as well as the causes of the them.
+
 ![EBIOS Risk Management - Example of Workshops 1: Determine the Security Baseline](img/ebios-risk-management-workshop-example-1-2.png)
 
 ## Workshop 2: Risk origins
@@ -52,11 +55,13 @@ In the second workshop, you identify and characterise the risk origins (RO) and 
 You must ask the following questions:
 - what are the risk origins that can harm the organisation's missions or high-level interests (sector-related, state-related, etc.)?
 - what can the target objectives be for each risk origin in terms of the effects sought?
+
 ![EBIOS Risk Management - Example of Workshops 2: Identify the Risk Origins and the Target Objectives](img/ebios-risk-management-workshop-example-2-0.png)
 #### 2. Assess the RO-TO Pairs
 The objective is to identify, in the pool of risk origins and target objectives listed, those that you feel are the most relevant.
 #### 3. Select the RO-TO Pairs for the Analysis
-One of the choice criteria is obviously the level of relevance assessed in the preceding step. Favour RO/TO pairs that are sufficiently distinct from one another and that will likely affect different business assets and supporting assets. In terms of volume, 3 to 6 RO/TO pairs generally form a base that is sufficient to develop strategic scenarios
+One of the choice criteria is obviously the level of relevance assessed in the preceding step. Favour RO/TO pairs that are sufficiently distinct from one another and that will likely affect different business assets and supporting assets. In terms of volume, 3 to 6 RO/TO pairs generally form a base that is sufficient to develop strategic scenarios.
+
 ![EBIOS Risk Management - Example of Workshops 2: Select the RO-TO Pairs for the Analysis](img/ebios-risk-management-workshop-example-2-1.png)
 
 ## Workshop 3: Strategic Scenarios (Impacts)
@@ -70,8 +75,11 @@ To conduct this workshop, you need to know the missions and business assets (wor
 - A stakeholder is said to be critical when it is likely to form a relevant vector for attack.
 - A well-informed risk origin will attempt to attack the stakeholder that appears to be the "weakest link".
 The objective is therefore to identify these critical stakeholders in order to include them in the development of strategic scenarios. So, you will first assess the threat level induced by each stakeholder of the ecosystem on the studied object. You will then establish the **ecosystem digital threat mapping** on which all of the stakeholders of interest have to appear in terms of their threat level with regards to the studied object. Finally, you will be able to select the critical stakeholders; using risk acceptance thresholds will facilitate this selection work.
+
 ![EBIOS Risk Management - Example of Workshops 3: Define Critical Stakeholders and Map Digital Threats](img/ebios-risk-management-workshop-example-3-0.png)
+
 The assessment of each stakeholder has made it possible to draw up the digital threat mapping hereinafter.
+
 ![EBIOS Risk Management - Example of Workshops 3: Define Critical Stakeholders and Map Digital Threats](img/ebios-risk-management-workshop-example-3-1.png)
 #### 2. Develop Strategic Scenarios
 The objective now is to develop realistic high-level scenarios, indicating in what way an attacker could proceed to reach its target. These so-called **strategic scenarios** are identified by deduction.
@@ -80,15 +88,18 @@ In order to run this workshop, use as a starting point the RO/TO pairs selected 
 - what is the organisation's business asset(s) that I have to aim for in order to reach my target?
 - in order to make my attack possible or facilitate it, am I likely to attack the critical stakeholders of the ecosystem that have privileged access to the business assets?
 
-You will then assess the level of severity of each scenario, with regards to the 
-potential impacts associated with the feared events on the business assets.
+You will then assess the level of severity of each scenario, with regards to the potential impacts associated with the feared events on the business assets.
+
 ![EBIOS Risk Management - Example of Workshops 3: Develop Strategic Scenarios](img/ebios-risk-management-workshop-example-3-2.png)
 ![EBIOS Risk Management - Example of Workshops 3: Develop Strategic Scenarios](img/ebios-risk-management-workshop-example-3-3.png)
 ![EBIOS Risk Management - Example of Workshops 3: Develop Strategic Scenarios](img/ebios-risk-management-workshop-example-3-4.png)
 #### 3. Define Security Measures on the Ecosystem
 The aim of the last step of workshop 3 is looking for ways to reduce these risks and translating them into security measures. The purpose of the security measures is to reduce the intrinsic threat level induced by the critical stakeholders (example: reduce the dependency on a subcontractor).
+
 ![EBIOS Risk Management - Example of Workshops 3: Define Security Measures on the Ecosystem](img/ebios-risk-management-workshop-example-3-5.png)
+
 Applying the objectives hereinabove should make it possible within 9 to 12 months to reduce the risk, with a residual digital threat mapping as follows:
+
 ![EBIOS Risk Management - Example of Workshops 3: Define Security Measures on the Ecosystem](img/ebios-risk-management-workshop-example-3-6.png)
 
 ## Workshop 4: Operational Scenarios (Likelihood)
@@ -102,10 +113,12 @@ To conduct this workshop, you need to know the missions, business assets and sup
 The operational scenarios defined in this workshop can be structured according to a typical attack sequence. Several models exist and can be used, i.e., the cyber kill chain or MITRE ATTACK. The approach must allow you to identify the critical supporting assets that can be used as vectors for entry or exploitation or as a propagation relay for the modelled attack.
 
 Construct the operational scenarios by using as a base the strategic scenarios selected in workshop 3 and by using the mapping of the IT system. A good approach consists in representing your scenarios in the form of graphs or attack diagrams, useful for representing the attacker's methods of attack.
+
 ![EBIOS Risk Management - Example of Workshops 4: Develop Operational Scenarios](img/ebios-risk-management-workshop-example-4-0.png)
 ![EBIOS Risk Management - Example of Workshops 4: Develop Operational Scenarios](img/ebios-risk-management-workshop-example-4-1.png)
 #### 2. Assess the Likelihood of Operational Scenarios
 For each operational scenario, you will assess its overall **likelihood**, which reflects its probability of success or its feasibility according to the judgement of an expert or using metrics.
+
 ![EBIOS Risk Management - Example of Workshops 4: Assess the Likelihood of Operational Scenarios](img/ebios-risk-management-workshop-example-4-2.png)
 
 ## Workshop 5: Risk Treatment
@@ -119,8 +132,10 @@ To conduct this workshop, you need to know the security baseline (workshop 1), t
 First create a summary of the risk scenarios identified. These scenarios are most often positioned on a grid, a radar25 or a Farmer diagram according to their levels of severity and likelihood. All of the representations adopted will form your initial risk mapping, i.e. before treatment. For an example, see it in step 2.
 #### 2. Define the Risk Treatment Strategy & the Security Measures
 For each risk scenario, agree on acceptance thresholds of the risk and level of security to be achieved in case of non-acceptance. This decision is formalised in the risk treatment strategy. We recommend the following acceptance classes, commonly used in risk management.
+
 ![EBIOS Risk Management - Risk aAcceptance Classes](img/ebios-risk-acceptance-classes.png)
 ![EBIOS Risk Management - Example of Workshops 5: Create a Summary of Risk Scenarios](img/ebios-risk-management-workshop-example-5-0.png)
+
 Once the treatment strategy is validated for each scenario, define the associated security measures to treat it. This can be ad hoc measures linked to the context of use and threat, or reinforced measures among measures included in the security baseline.
 
 The identification of the risk treatment measures must result from the **strategic and operational scenarios**. Run through each scenario and ask the following question: *what are the elementary phases or actions for which it would be relevant to reinforce the security, in order to make the task more difficult for an attacker and reduce their probability of success?*
@@ -129,6 +144,7 @@ Document all of these treatment measures in a **security continuous improvement 
 ![EBIOS Risk Management - Example of Workshops 5: Define the Risk Treatment Strategy & the Security Measures](img/ebios-risk-management-workshop-example-5-1.png)
 #### 3. Assess and Document Residual Risks
 The assessment of the **residual risks (RR)** takes place after applying the treatment measures defined in the preceding step. You can document the residual risks according to the following model.
+
 ![EBIOS Risk Management - Residual Risk Table](img/ebios-residual-risk.png)
 ![EBIOS Risk Management - Example of Workshops 5: Assess and Document Residual Risks](img/ebios-risk-management-workshop-example-5-2.png)
 #### 4. Monitor Risks
