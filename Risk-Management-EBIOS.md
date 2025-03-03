@@ -1,4 +1,4 @@
-# What isEBIOS?
+# What is EBIOS?
 EBIOS Risk Manager [(EBIOS RM)](https://cyber.gouv.fr/publications/ebios-risk-manager-method) is the method for assessing and treating digital risks published by National Cybersecurity Agency of France (ANSSI) with the support of Club EBIOS.
 
 EBIOS RM makes it possible to assess digital risks and to identify the security measures to be taken in order to control them. It also makes it possible to validate the acceptable level of risk and to carry on in the longer term in a continuous improvement approach. Finally, this method makes it possible to bring about resources and arguments that are useful for communication and decision-making within the organisation and with regards to its partners.
