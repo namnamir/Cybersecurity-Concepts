@@ -13,6 +13,7 @@ The EBIOS RM method uses an iterative approach (symbolised by the "digital risk 
 
 ![EBIOS Risk Management Pyramid](img/ebios-risk-management-pyramid.png)
 ![EBIOS Risk Management Iterative Workshops](img/ebios-risk-management-workshop.png)
+![EBIOS Risk Management Flow vs. Workshops](img/ebios-risk-management-flow.png)
 ## Workshop 1: Scope and security baseline
 The first workshop aims to identify the studied object, the participants in the workshops and the timeframe. During this workshop, you will list the missions, business assets5 and supporting assets related to the studied object.
 | Objectives | Participants | Outputs |
